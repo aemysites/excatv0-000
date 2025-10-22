@@ -1,0 +1,27 @@
+/* Columns CTA - 2-column CTA section */
+
+.columns-cta > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.columns-cta h2 {
+  font-size: 36.16px;
+  margin-bottom: 12.656px;
+}
+
+.columns-cta p {
+  font-size: 18.08px;
+  line-height: 1.6;
+}
+
+@media (width >= 900px) {
+  .columns-cta > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+}

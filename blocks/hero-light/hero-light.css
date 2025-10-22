@@ -1,0 +1,67 @@
+/* Hero Light Block - Light background hero with 2-column layout */
+
+.hero-light {
+  padding: 112px 16px;
+}
+
+.hero-light > div {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  align-items: start;
+}
+
+/* Content column (first div) */
+.hero-light > div > div:first-child h1 {
+  font-size: 45px;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+  margin-bottom: 21.696px;
+}
+
+.hero-light > div > div:first-child p {
+  font-size: 18.08px;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+/* Button wrapper */
+.hero-light > div > div:first-child p strong {
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* Images column (second div) */
+.hero-light > div > div:last-child {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.hero-light img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Desktop layout */
+@media (width >= 900px) {
+  .hero-light > div {
+    grid-template-columns: 366px 366px;
+    gap: 48px;
+  }
+
+  .hero-light > div > div:first-child h1 {
+    font-size: 72.32px;
+    line-height: 1.04;
+    letter-spacing: -0.7232px;
+  }
+
+  .hero-light > div > div:last-child {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
