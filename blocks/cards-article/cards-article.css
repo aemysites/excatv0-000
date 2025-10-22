@@ -1,0 +1,61 @@
+/* Cards Article - Article cards with images */
+
+.cards-article > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 48px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.cards-article > ul > li {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  border: none;
+  background-color: transparent;
+}
+
+.cards-article .cards-card-image {
+  line-height: 0;
+}
+
+.cards-article > ul > li img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cards-article .cards-card-body {
+  margin: 0;
+}
+
+.cards-article .cards-card-body h3 {
+  font-size: 20.32px;
+  font-weight: 400;
+  margin-bottom: 10.16px;
+}
+
+.cards-article .cards-card-body p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+@media (width >= 900px) {
+  .cards-article > ul {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .cards-article > ul > li {
+    grid-template-columns: 358px 1fr;
+    gap: 32px;
+    align-items: start;
+  }
+}

@@ -13,28 +13,45 @@
 :root {
   /* colors */
   --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #3b63fb;
-  --link-hover-color: #1d3ecf;
+  --light-color: #f7f8f5;
+  --dark-color: #000;
+  --text-color: #000;
+  --text-color-secondary: rgba(0, 0, 0, 0.7);
+  --link-color: #000;
+  --link-hover-color: #000;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: "Instrument Sans", instrument-sans-fallback, sans-serif;
+  --heading-font-family: Syncopate, syncopate-fallback, sans-serif;
 
   /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
+  --body-font-size-m: 14px;
+  --body-font-size-s: 14px;
+  --body-font-size-xs: 14px;
 
   /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
+  --heading-font-size-xxl: 72px;
+  --heading-font-size-xl: 36px;
+  --heading-font-size-l: 18px;
+  --heading-font-size-m: 18px;
+  --heading-font-size-s: 18px;
+  --heading-font-size-xs: 18px;
+
+  /* typography */
+  --heading-font-weight: 400;
+  --heading-line-height: 1.04;
+  --heading-letter-spacing: -0.01em;
+  --body-line-height: 1.6;
+  --body-letter-spacing: normal;
+
+  /* button styles */
+  --button-background-color: transparent;
+  --button-color: rgba(0, 0, 0, 0.75);
+  --button-border: 1px solid rgba(0, 0, 0, 0.2);
+  --button-border-radius: 1600px;
+  --button-padding: 9px 14px;
+  --button-font-size: 18px;
+  --button-font-weight: 400;
 
   /* nav height */
   --nav-height: 64px;
@@ -43,14 +60,14 @@
 
 /* fallback fonts */
 @font-face {
-  font-family: roboto-condensed-fallback;
-  size-adjust: 88.82%;
-  src: local('Arial');
+  font-family: syncopate-fallback;
+  size-adjust: 95%;
+  src: local('Arial Narrow'), local('Helvetica Condensed'), local('Arial');
 }
 
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 99.529%;
+  font-family: instrument-sans-fallback;
+  size-adjust: 100%;
   src: local('Arial');
 }
 
@@ -108,8 +125,9 @@ h6 {
   margin-top: 0.8em;
   margin-bottom: 0.25em;
   font-family: var(--heading-font-family);
-  font-weight: 600;
-  line-height: 1.25;
+  font-weight: var(--heading-font-weight);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
   scroll-margin: 40px;
 }
 
@@ -173,17 +191,18 @@ button {
   display: inline-block;
   max-width: 100%;
   margin: 12px 0;
-  border: 2px solid transparent;
-  border-radius: 2.4em;
-  padding: 0.5em 1.2em;
+  border: var(--button-border);
+  border-radius: var(--button-border-radius);
+  padding: var(--button-padding);
   font-family: var(--body-font-family);
   font-style: normal;
-  font-weight: 500;
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
   line-height: 1.25;
   text-align: center;
   text-decoration: none;
-  background-color: var(--link-color);
-  color: var(--background-color);
+  background-color: var(--button-background-color);
+  color: var(--button-color);
   cursor: pointer;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -194,7 +213,7 @@ a.button:hover,
 a.button:focus,
 button:hover,
 button:focus {
-  background-color: var(--link-hover-color);
+  background-color: rgba(0, 0, 0, 0.05);
   cursor: pointer;
 }
 
@@ -206,9 +225,9 @@ button:disabled:hover {
 
 a.button.secondary,
 button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color);
+  background-color: var(--button-background-color);
+  border: var(--button-border);
+  color: var(--button-color);
 }
 
 main img {
@@ -255,6 +274,32 @@ main .section.highlight {
   background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+}
+
+main .section.secondary {
+  background-color: var(--light-color);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark {
+  background-color: var(--dark-color);
+  color: var(--background-color);
+  margin: 0;
+  padding: 40px 0;
+}
+
+main .section.dark h1,
+main .section.dark h2,
+main .section.dark h3,
+main .section.dark h4,
+main .section.dark h5,
+main .section.dark h6 {
+  color: var(--background-color);
+}
+
+main .section.dark a:any-link {
+  color: var(--background-color);
 }
 
 .section.hidden {
