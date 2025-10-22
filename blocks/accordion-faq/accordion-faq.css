@@ -22,16 +22,15 @@
 
 .accordion-faq details summary {
   position: relative;
-  padding: 24px 48px 24px 0;
+  padding: 24px 0;
+  padding-left: 32px;
   cursor: pointer;
   list-style: none;
   overflow: visible;
   transition: none;
   font-size: 18px;
   font-weight: 400;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: block;
   width: 100%;
   text-align: left;
 }
@@ -49,27 +48,26 @@
   display: none;
 }
 
-/* Chevron icon */
-.accordion-faq details summary::after {
+/* Chevron icon - positioned on the left inside content */
+.accordion-faq details summary::before {
   content: '';
   position: absolute;
   top: 50%;
-  right: 0;
+  left: 0;
   transform: translateY(-50%) rotate(45deg);
   width: 10px;
   height: 10px;
   border: 2px solid currentColor;
   border-width: 0 2px 2px 0;
   transition: transform 0.3s ease;
-  flex-shrink: 0;
 }
 
-.accordion-faq details[open] summary::after {
+.accordion-faq details[open] summary::before {
   transform: translateY(-50%) rotate(-135deg);
 }
 
 .accordion-faq details .accordion-item-body {
-  padding: 0 0 24px 0;
+  padding: 0 0 24px 32px;
 }
 
 .accordion-faq details[open] .accordion-item-body {
