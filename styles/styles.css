@@ -111,6 +111,7 @@ h6 {
   font-weight: 600;
   line-height: 1.25;
   scroll-margin: 40px;
+  color: red;
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
