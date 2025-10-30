@@ -1,0 +1,51 @@
+{
+  "variantName": "cards-fashion",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-10-30T12:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "originPage": "Fashion trends landing page",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "secondary",
+    "density": "compact",
+    "purpose": "cta-card",
+    "imagePattern": "noimg",
+    "textLength": "short"
+  },
+  "contentPattern": {
+    "structure": "heading + description + CTA button",
+    "headingMaxLength": 60,
+    "descriptionMaxLength": 100,
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "call-to-action sections",
+      "text-only promotional cards",
+      "newsletter signup sections",
+      "simple featured content"
+    ],
+    "notSuitableFor": [
+      "image-based cards",
+      "multiple card grids",
+      "product showcases with images"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#000000",
+    "backgroundColor": "#f5f5f5",
+    "fontFamily": "system-ui",
+    "headingSize": "2rem",
+    "padding": "16px"
+  },
+  "usage": {
+    "pagesUsing": ["/fashion-trends-of-the-season"],
+    "reuseCount": 1,
+    "lastUsed": "2025-10-30T12:46:00.000Z"
+  }
+}

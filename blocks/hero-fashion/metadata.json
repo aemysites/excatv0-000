@@ -1,0 +1,50 @@
+{
+  "variantName": "hero-fashion",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2025-10-30T12:46:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "originPage": "Fashion trends landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "inverse",
+    "density": "minimal",
+    "purpose": "fashion-hero",
+    "imagePattern": "carousel",
+    "textLength": "medium"
+  },
+  "contentPattern": {
+    "structure": "heading + description + 2 CTAs",
+    "headingMaxLength": 80,
+    "descriptionMaxLength": 250,
+    "buttonCount": 2,
+    "imageCount": 9
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "fashion blog landing pages",
+      "lifestyle content pages",
+      "visual-heavy hero sections with multiple background images"
+    ],
+    "notSuitableFor": [
+      "simple hero sections with single image",
+      "text-only hero sections",
+      "product-focused landing pages"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "fontFamily": "system-ui",
+    "headingSize": "3rem",
+    "padding": "40px 24px"
+  },
+  "usage": {
+    "pagesUsing": ["/fashion-trends-of-the-season"],
+    "reuseCount": 1,
+    "lastUsed": "2025-10-30T12:46:00.000Z"
+  }
+}
