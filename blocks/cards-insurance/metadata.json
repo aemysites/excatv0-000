@@ -1,0 +1,54 @@
+{
+  "variantName": "cards-insurance",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2025-10-30T10:09:45.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.axa.co.jp/prospect/be-recommended/",
+    "originPage": "Insurance simulation page",
+    "screenshotPath": "blocks/cards-insurance/reference-screenshot.png",
+    "blockPosition": "bottom"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "insurance-life-events",
+    "imagePattern": "illustration",
+    "textLength": "short"
+  },
+  "contentPattern": {
+    "structure": "image + title label",
+    "headingMaxLength": 20,
+    "descriptionMaxLength": 0,
+    "buttonCount": 0,
+    "imageCount": 8
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "insurance pages",
+      "life event categories",
+      "service category pages",
+      "icon-based navigation"
+    ],
+    "notSuitableFor": [
+      "text-heavy content",
+      "product listings with descriptions",
+      "photo galleries"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#0070c0",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "system-ui",
+    "headingSize": "1rem",
+    "padding": "16px"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/prospect/be-recommended/index"
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2025-10-30T10:09:45.000Z"
+  }
+}

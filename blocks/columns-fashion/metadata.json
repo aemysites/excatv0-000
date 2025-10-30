@@ -1,0 +1,55 @@
+{
+  "variantName": "columns-fashion",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2025-10-30T09:47:30.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.wknd-trendsetters.site/fashion-trends-of-the-season",
+    "originPage": "Fashion trends landing page",
+    "screenshotPath": "blocks/columns-fashion/reference-screenshot.png",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "fashion-content",
+    "imagePattern": "multiple",
+    "textLength": "short"
+  },
+  "contentPattern": {
+    "structure": "heading + images in grid",
+    "headingMaxLength": 60,
+    "descriptionMaxLength": 150,
+    "buttonCount": 0,
+    "imageCount": 6
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "fashion blog pages",
+      "image galleries",
+      "lifestyle content pages",
+      "trend showcases"
+    ],
+    "notSuitableFor": [
+      "text-heavy articles",
+      "pages without images",
+      "data tables"
+    ],
+    "similarVariants": []
+  },
+  "designTokens": {
+    "primaryColor": "#333333",
+    "backgroundColor": "#ffffff",
+    "fontFamily": "system-ui",
+    "headingSize": "2rem",
+    "padding": "24px"
+  },
+  "usage": {
+    "pagesUsing": [
+      "/fashion-trends-of-the-season",
+      "/prospect/be-recommended/index"
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2025-10-30T10:09:45.000Z"
+  }
+}
