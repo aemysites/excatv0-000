@@ -1,0 +1,20 @@
+#!/bin/bash
+
+# Read URLs and process each one
+urls=(
+  "https://www.vitamix.com/us/en_us/recipes/carrot-curry-soup-immersion-blender"
+  "https://www.vitamix.com/us/en_us/recipes/carrot-ginger-and-turmeric-pineapple-juice"
+  "https://www.vitamix.com/us/en_us/recipes/carrot-ginger-tofu-soup"
+  "https://www.vitamix.com/us/en_us/recipes/carrot-orange-and-apple-juice"
+  "https://www.vitamix.com/us/en_us/recipes/carrot-orange-juice"
+  "https://www.vitamix.com/us/en_us/recipes/cashew-cream-of-mushroom-immersion-blender"
+  "https://www.vitamix.com/us/en_us/recipes/celery-potato-soup"
+  "https://www.vitamix.com/us/en_us/recipes/chai-smoothie"
+  "https://www.vitamix.com/us/en_us/recipes/cherry-almond-protein-smoothie"
+  "https://www.vitamix.com/us/en_us/recipes/cherry-pistachio-cardamom-kombucha-smoothie"
+)
+
+echo "Total URLs: ${#urls[@]}"
+for url in "${urls[@]}"; do
+  echo "$url"
+done

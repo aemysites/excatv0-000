@@ -1,0 +1,40 @@
+{
+    "url": "https://www.vitamix.com/us/en_us/recipes/cashew-cream-of-mushroom-immersion-blender",
+    "title": "Cashew Cream of Mushroom [Immersion Blender]",
+    "description": "This vegan friendly version of a classic soup is sure to please your taste buds.",
+    "heroImageUrl": "https://www.vitamix.com/content/dam/vitamix/home/recipes/soups/CashewCreamOfMushroom_470x449.jpg",
+    "totalTime": "4 Hours 1 Minute 30 Seconds",
+    "yield": "5 servings",
+    "difficulty": "Simple",
+    "dietaryInterests": "Vegan, Vegetarian, Mediterranean, Diabetes Friendly",
+    "ingredients": [
+        "2 Tablespoons extra virgin olive oil",
+        "2 medium (275 g) yellow onion, peeled, cut into large chunks",
+        "1 ½ pound (680 g) mixed mushrooms, cleaned, halved",
+        "4 fresh thyme leaves",
+        "½ teaspoon kosher salt",
+        "1 ½ cups (200 g) raw cashews",
+        "6 cups (1.4 l) vegetable stock"
+    ],
+    "directions": [
+        "Heat a medium stock pot over medium-high heat. Once hot, add olive oil, onions, mushrooms, thyme and salt. Saute for 10-12 minutes until mushrooms are soft and onions are translucent. Add cashews and saute for an additional 2 minutes.",
+        "Add the vegetable stock and bring to a simmer over medium-low heat. Simmer for 60-90 minutes.",
+        "Place the immersion blender into the middle of the stockpot. Submerge the blender below the surface of the liquid, but above the bottom of the pot.",
+        "Start the blender on its lowest speed, then quickly increase to its highest speed. Move the immersion blender around, including up and down, to blend the ingredients for approximately 2 1/2 to 3 minutes or until desired consistency is achieved. Serve immediately, or cool in an ice bath and store in an airtight container in the refrigerator."
+    ],
+    "nutrition": {
+        "serving": "1 serving (350 g)",
+        "items": [
+            "Calories: 290",
+            "Total Fat: 19g",
+            "Saturated Fat: 3.5g",
+            "Cholesterol: 0mg",
+            "Sodium: 100mg",
+            "Total Carbohydrate: 24g",
+            "Dietary Fiber: 4g",
+            "Sugars: 7g",
+            "Protein: 10g"
+        ]
+    },
+    "chefsNote": []
+}

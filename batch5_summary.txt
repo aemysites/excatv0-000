@@ -1,0 +1,71 @@
+================================================================================
+BATCH 5 IMPORT SUMMARY
+================================================================================
+
+Import Date: 2025-10-30
+Source File: /workspace/batch-5.txt
+Total URLs: 10
+
+SUCCESSFULLY IMPORTED RECIPES:
+================================================================================
+
+1. Carrot Curry Soup [Immersion Blender]
+   File: /workspace/content/us/en-us/recipes/carrot-curry-soup-immersion-blender.md
+   URL: https://www.vitamix.com/us/en_us/recipes/carrot-curry-soup-immersion-blender
+
+2. Carrot, Ginger & Turmeric Pineapple Juice
+   File: /workspace/content/us/en-us/recipes/carrot-ginger-and-turmeric-pineapple-juice.md
+   URL: https://www.vitamix.com/us/en_us/recipes/carrot-ginger-and-turmeric-pineapple-juice
+
+3. Carrot Ginger Tofu Soup
+   File: /workspace/content/us/en-us/recipes/carrot-ginger-tofu-soup.md
+   URL: https://www.vitamix.com/us/en_us/recipes/carrot-ginger-tofu-soup
+
+4. Carrot, Orange, and Apple Juice
+   File: /workspace/content/us/en-us/recipes/carrot-orange-and-apple-juice.md
+   URL: https://www.vitamix.com/us/en_us/recipes/carrot-orange-and-apple-juice
+
+5. Carrot Orange Juice
+   File: /workspace/content/us/en-us/recipes/carrot-orange-juice.md
+   URL: https://www.vitamix.com/us/en_us/recipes/carrot-orange-juice
+
+6. Cashew Cream of Mushroom [Immersion Blender]
+   File: /workspace/content/us/en-us/recipes/cashew-cream-of-mushroom-immersion-blender.md
+   URL: https://www.vitamix.com/us/en_us/recipes/cashew-cream-of-mushroom-immersion-blender
+
+7. Celery Potato Soup
+   File: /workspace/content/us/en-us/recipes/celery-potato-soup.md
+   URL: https://www.vitamix.com/us/en_us/recipes/celery-potato-soup
+
+8. Chai Smoothie
+   File: /workspace/content/us/en-us/recipes/chai-smoothie.md
+   URL: https://www.vitamix.com/us/en_us/recipes/chai-smoothie
+
+9. Cherry Almond Protein Smoothie
+   File: /workspace/content/us/en-us/recipes/cherry-almond-protein-smoothie.md
+   URL: https://www.vitamix.com/us/en_us/recipes/cherry-almond-protein-smoothie
+
+10. Cherry, Pistachio, Cardamom Kombucha Smoothie
+    File: /workspace/content/us/en-us/recipes/cherry-pistachio-cardamom-kombucha-smoothie.md
+    URL: https://www.vitamix.com/us/en_us/recipes/cherry-pistachio-cardamom-kombucha-smoothie
+
+================================================================================
+FINAL RESULTS:
+================================================================================
+
+Successfully Imported: 10
+Failed: 0
+
+All recipes follow the Maafe structure with:
+- Title (h1), description, hero image
+- Horizontal rule
+- Ingredients section (unordered list)
+- Directions section (numbered list)
+- Nutrition section (if present)
+- Chef's Note section (if present)
+- Horizontal rule before metadata
+- Metadata table with source, totalTime, yield, difficulty, and dietaryInterests
+
+No promotional content was imported.
+
+================================================================================
