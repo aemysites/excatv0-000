@@ -1,0 +1,23 @@
+/* Columns Images - Simple 2-column image grid */
+
+.columns-images > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.columns-images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+@media (width >= 900px) {
+  .columns-images > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+}
